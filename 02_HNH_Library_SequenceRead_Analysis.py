@@ -4,7 +4,6 @@ Analysis Script for HNHxABE Library. Sequence reads are initially demultiplexed 
 barcode1 (5' of target sequence) and barcode2 (3' of target sequence).
 Reads without a match or with ambiguous matches (due to recombinations during PCR or lentiviral packaging)
 are discarded and only fully matched reads are further processed.
-
 @author: mathinic
 """
 
