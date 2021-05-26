@@ -94,7 +94,7 @@ def importfiles(filename, protolookup, barcode1lookup, barcode2lookup):
     return diseasedict
 
 
-templatedf = pd.read_csv('20210421_HNH_Library_Templatetable.csv') # import csv-file containing library sequence information
+templatedf = pd.read_csv('HNHx_ABE_Library_Templatetable.csv') # import csv-file containing library sequence information
 
 def list_files1(directory): # get list of all filenames with "target.fastq.gz" ending
     return [f for f in listdir(directory) if 'target.fastq.gz' in f]
